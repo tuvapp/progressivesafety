@@ -12,7 +12,7 @@
                 <div class="container">
                     <div class="row mb-small">
                         <div class="col-sm-12 text-center" style="background:rgba(0,0,0,0.1);">
-                            <h1>Brandsläckning för <u>alla</u></h1>
+                            <h1>Brandskydd för <u>alla</u></h1>
                         </div>
                     </div>
 
@@ -35,22 +35,18 @@
             <!-- *** JUMBOTRON END *** -->
         </section>
 
-        <section class="bar no-mb color-white" style="background:#e65852;">
+        <section class="bar no-mb color-white text-center" style="background:#e65852;">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <h1>Vår affärsidé</h1>
-
-                        <p class="lead">
-                            Progressive Safety är ett svenskt bolag som utvecklar livsavgörande hjälpmedel inom området säkerhet.
-                        </p>
-
+                        <p class="lead">Progressive Safety är ett svenskt bolag som utvecklar livsavgörande hjälpmedel inom området brandskydd.<center></p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="bar background-pentagon no-mb">
+  <!--      <section class="bar background-pentagon no-mb">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -62,11 +58,11 @@
                                 Vi har arbetat med många nöjda kunder och vi vill mer än gärna presentera några av dem med citat.
                             </p>
                         </center>
-
+    -->
 
                         <!-- *** TESTIMONIALS CAROUSEL ***
  _________________________________________________________ -->
-                    <center>
+    <!--                <center>
                         <ul class="owl-carousel testimonials same-height-row">
                             <li class="item">
                                 <div class="testimonial same-height-always">
@@ -135,6 +131,8 @@
                                     </div>
                                 </div>
                             </li>
+
+                          -->
                             <!--<li class="item">
                                 <div class="testimonial same-height-always">
                                     <div class="text">
@@ -185,7 +183,7 @@
         </section>
         <!-- /.bar -->
 
-        <section class="bar background-gray no-mb">
+  <!--      <section class="bar background-gray no-mb">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -213,8 +211,8 @@
                                 <img src="img/customer-6.png" alt="" class="img-responsive">
                             </li>
                         </ul>
-                        <!-- /.owl-carousel -->
                     </div>
+
                     <div class="row">
                         <div class="col-md-12">
                             <div class="see-more">
@@ -225,4 +223,5 @@
                 </div>
             </div>
         </section>
+          -->
 @endsection

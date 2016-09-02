@@ -29,7 +29,7 @@ Route::get('/customers', function() {
 	return view('customers');
 });
 
-// Using controller to handle post 
+// Using controller to handle post
 Route::get('/contact', 'ContactController@index');
 Route::post('/contact', 'ContactController@send');
 

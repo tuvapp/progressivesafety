@@ -116,7 +116,7 @@
 
                         <p class="text-muted">Har ni en defekt produkt eller fundering kring funktion? Kontakta oss via följande nedan.</p>
                         <strong><a href="mailto:support@progressivesafety.se">support@progressivesafety.se</a></strong>
-                        
+
 
 
                     </div>

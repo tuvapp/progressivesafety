@@ -94,10 +94,10 @@
 
                     <div class="container">
                         <div class="navbar-header">
-                            <a class="navbar-brand home" href="index.html">
+                            <a class="navbar-brand home" href="/home">
                                 <img src="img/logo@200px.png" alt="Universal logo" class="hidden-xs hidden-sm">
                                 <img src="img/logo@150px.png" alt="Universal logo" class="visible-xs visible-sm"><span class="sr-only">Universal - go to homepage</span>
-                                
+
                             </a>
                             <div class="navbar-buttons">
                                 <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
@@ -120,9 +120,10 @@
                                 <li class="nav-item {{ Request::is('how-it-works') ? 'active' : '' }}">
                                   <a class="nav-link" href="/how-it-works">Så funkar det</a>
                                 </li>
-                                <li class="nav-item {{ Request::is('customers') ? 'active' : '' }}">
+                            <!--    <li class="nav-item {{ Request::is('customers') ? 'active' : '' }}">
                                   <a class="nav-link" href="/customers">Kunder</a>
                                 </li>
+                            -->
                                 <li class="nav-item {{ Request::is('contact') ? 'active' : '' }}">
                                     <a class="nav-link" href="/contact">Kontakt</a>
                                 </li>
@@ -196,7 +197,7 @@ _________________________________________________________ -->
             <div class="container">
                 <div class="col-md-3 col-sm-6">
                     <h4>Affärsidé</h4>
-                    <p>Progressive Safety är ett svenskt bolag som utvecklar livsavgörande hjälpmedel inom området säkerhet.</p>
+                    <p>Progressive Safety är ett svenskt bolag som utvecklar livsavgörande hjälpmedel inom området brandskydd.</p>
 
                     <hr class="hidden-md hidden-lg hidden-sm">
 
@@ -206,7 +207,7 @@ _________________________________________________________ -->
                 <div class="col-md-3 col-sm-6">
 
                     <h5><a href="/company" class="inverse">Företaget</a></h5>
-                    <h5><a href="/team" class="inverse">Team</a></h5>
+              <!--      <h5><a href="/team" class="inverse">Team</a></h5> -->
                     <h5><a href="/our-story" class="inverse">Vår Story</a></h5>
                     <h5><a href="/media" class="inverse">Press</a></h5>
 
@@ -220,7 +221,7 @@ _________________________________________________________ -->
                     <h5><a href="http://www.presto.se" class="inverse">Presto Brandsäkerhet AB</a></h5>
                     <h5><a href="http://www.dafo.se" class="inverse">Dafo Brand</a></h5>
                     <h5><a href="http://www.kidde.se" class="inverse">Kidde Sweden AB</a></h5>
-                    <h5><a href="/resellers" class="inverse">Mer...</a></h5>
+                <!--    <h5><a href="/resellers" class="inverse">Mer...</a></h5> -->
 
                 </div>
 
@@ -285,7 +286,7 @@ _________________________________________________________ -->
 
     <!-- owl carousel -->
     <script src="js/owl.carousel.min.js"></script>
-    
+
 
     @yield('script')
 
