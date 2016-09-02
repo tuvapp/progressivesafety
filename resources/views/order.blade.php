@@ -1,14 +1,14 @@
 @extends('master')
 
 @section('content')
-	
+
 	<section class="bar background-gray no-mb">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="heading text-center">
                             <h1>Beställ av oss</h1>
-                            <p>Vänligen fyll i formulär så återkommer vi med prisinformation. Priset kan variera på <u>mängd</u> och dig om du är en återkommande kund.</p>
+                            <p>Vänligen fyll i formulär så återkommer vi med prisinformation.</p>
                         </div>
 
                         @if (session('status'))
@@ -102,7 +102,7 @@
 
                         		<div class="form-group {{ $errors->has('other') ? 'has-error' : '' }}">
                         			<label>Övriga upplysningar</label>
-									<textarea name="other" class="form-control">{{ old('other') }}</textarea>		
+									<textarea name="other" class="form-control">{{ old('other') }}</textarea>
                         			@if ($errors->has('other'))
                         				<span class="help-block">
                         					<strong>{{ $errors->first('other') }}</strong>
@@ -118,5 +118,5 @@
                 </div>
             </div>
 	</section>
-	
+
 @endsection
