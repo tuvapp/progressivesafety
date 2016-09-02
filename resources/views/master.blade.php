@@ -255,7 +255,7 @@ _________________________________________________________ -->
         <div id="copyright">
             <div class="container">
                 <div class="col-md-12">
-                    <p class="pull-left">&copy; 2016. Progressive Safety Sweden AB</p>
+                    <p><center>2016. Progressive Safety Sweden AB<center></p>
                     </p>
 
                 </div>
