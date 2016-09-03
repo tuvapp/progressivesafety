@@ -51,7 +51,6 @@
 </head>
 
 <body>
-
     <div id="all" class="scrollbar-light">
 
         <header>
@@ -94,7 +93,7 @@
 
                     <div class="container">
                         <div class="navbar-header">
-                            <a class="navbar-brand home" href="/home">
+                            <a class="navbar-brand home" href="/">
                                 <img src="img/logo@200px.png" alt="Universal logo" class="hidden-xs hidden-sm">
                                 <img src="img/logo@150px.png" alt="Universal logo" class="visible-xs visible-sm"><span class="sr-only">Universal - go to homepage</span>
 
@@ -221,7 +220,7 @@ _________________________________________________________ -->
                     <h5><a href="http://www.presto.se" class="inverse">Presto Brandsäkerhet AB</a></h5>
                     <h5><a href="http://www.dafo.se" class="inverse">Dafo Brand</a></h5>
                     <h5><a href="http://www.kidde.se" class="inverse">Kidde Sweden AB</a></h5>
-                <!--    <h5><a href="/resellers" class="inverse">Mer...</a></h5> -->
+                    <h5><a href="/resellers" class="inverse">Mer...</a></h5>
 
                 </div>
 
